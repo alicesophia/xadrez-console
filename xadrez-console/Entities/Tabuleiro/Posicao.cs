@@ -1,6 +1,6 @@
 ﻿using System.Text;
 
-namespace xadrez_console.Entities.Tabuleiro {
+namespace xadrez_console.Entities.tabuleiro {
     class Posicao {
 
         public int Linha { get; set; }

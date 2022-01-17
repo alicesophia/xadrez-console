@@ -1,5 +1,5 @@
 ﻿using System;
-using xadrez_console.Entities.Tabuleiro;
+using xadrez_console.Entities.tabuleiro;
 
 namespace xadrez_console {
     class Tela {

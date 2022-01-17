@@ -1,5 +1,5 @@
 ﻿
-namespace xadrez_console.Entities.Tabuleiro.Enums {
+namespace xadrez_console.Entities.tabuleiro.enums {
     enum Cor {
 
         Branca,
