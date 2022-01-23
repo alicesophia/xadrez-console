@@ -11,16 +11,16 @@ namespace xadrez_console.Entities.xadrez {
         public bool Terminada { get; private set; }
 
         public PartidaDeXadrez() {
-            Tabuleiro = new Tabuleiro(8, 8);
-            Turno = 1;
-            JogadorAtual = Cor.Branca;
-            Terminada = false;
+            this.Tabuleiro = new Tabuleiro(8, 8);
+            this.Turno = 1;
+            this.JogadorAtual = Cor.Branca;
+            this.Terminada = false;
             ColocarPecas();
         }
 
         public void ExecutaMovimento(Posicao origem, Posicao destino) {
             Peca peca = Tabuleiro.RetirarPeca(origem);
-            peca.IncrementarMovimentos();
+            peca.IncrementarQtdMovimentos();
             Peca pecaCapturada = Tabuleiro.RetirarPeca(destino);
             Tabuleiro.ColocarPeca(peca, destino);
         }

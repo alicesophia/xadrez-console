@@ -50,7 +50,6 @@ namespace xadrez_console.Entities.tabuleiro {
             if (posicao.Linha < 0 || posicao.Linha >= Linhas || posicao.Coluna < 0 || posicao.Coluna >= Colunas) {
                 return false;
             }
-
             return true;
         }
 
