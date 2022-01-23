@@ -8,8 +8,8 @@ namespace xadrez_console.Entities.xadrez {
         public int Linha { get; set; }
 
         public PosicaoXadrez(char coluna, int linha) {
-            this.Coluna = coluna;
-            this.Linha = linha;
+            Coluna = coluna;
+            Linha = linha;
         }
 
         public Posicao ToPosicao() {

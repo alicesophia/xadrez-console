@@ -9,10 +9,10 @@ namespace xadrez_console.Entities.tabuleiro {
         public Tabuleiro Tabuleiro { get; protected set; }
 
         public Peca(Tabuleiro tabuleiro, Cor cor) {
-            this.Posicao = null;
-            this.Tabuleiro = tabuleiro;
-            this.Cor = cor;
-            this.QtdMovimentos = 0;
+            Posicao = null;
+            Tabuleiro = tabuleiro;
+            Cor = cor;
+            QtdMovimentos = 0;
         }
 
         public void IncrementarQtdMovimentos() {

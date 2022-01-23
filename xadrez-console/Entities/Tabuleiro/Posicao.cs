@@ -7,13 +7,13 @@ namespace xadrez_console.Entities.tabuleiro {
         public int Coluna { get; set; }
 
         public Posicao(int linha, int coluna) {
-            this.Linha = linha;
-            this.Coluna = coluna;
+            Linha = linha;
+            Coluna = coluna;
         }
 
         public void DefinirValores(int linha, int coluna) {
-            this.Linha = linha;
-            this.Coluna = coluna;
+            Linha = linha;
+            Coluna = coluna;
         }
 
         public override string ToString() {
