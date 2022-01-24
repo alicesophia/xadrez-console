@@ -19,6 +19,10 @@ namespace xadrez_console.Entities.tabuleiro {
             QtdMovimentos++;
         }
 
+        public void DecrementarQtdMovimentos() {
+            QtdMovimentos--;
+        }
+
         public bool ExisteMovimentosPossiveis() {
             bool[,] matriz = MovimentosPossiveis();
             for (int i = 0; i < Tabuleiro.Linhas; i++) {
